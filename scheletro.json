@@ -1,5 +1,5 @@
 [{
-	keyword: ["listbox", "lista", "scroll", "scorrimento"]
+	keyword: ["listbox", "lista", "scroll", "scorrimento"],
 	nome: "Bracco Mattia",
 	parte:[
 		titolo: "Listbox",
@@ -142,7 +142,7 @@ main()
 
 
 [{
-	keyword: ["checkbutton", "check", "button", "photoimage", "selezione", "scelta", "pulsante", "click"]
+	keyword: ["checkbutton", "check", "button", "photoimage", "selezione", "scelta", "pulsante", "click"],
 	nome: "De Boni Simone",
 	parte:[
 		titolo: "Checkbutton",
@@ -303,7 +303,7 @@ main()
 
 
 [{
-	keyword: ["Lista delle key word per filtrare il tuo widget"]
+	keyword: ["Lista delle key word per filtrare il tuo widget"],
 	nome: "inserire nome widget",
 	parte:[
 		titolo: "titolo della presentazione",
