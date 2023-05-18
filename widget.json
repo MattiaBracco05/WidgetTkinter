@@ -12,7 +12,6 @@ from tkinter import messagebox as mbox
 
 mioFont = ("Arial, 16")
 
-#------------------------------------------------------------------------------------------------------------------------------------
 class Finestra(tkinter.Tk):
 	#Costruttore
 	def __init__(self, nome):
@@ -27,7 +26,6 @@ class Finestra(tkinter.Tk):
 		mf = tkinter.Frame(self) #Creo l'oggetto Main Frame (contenitore principale), ci deve sempre essere e contine i widget
 		mf.grid() #Definisco il layout del Main Frame (in questo caso "grid")
 		
-		#////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		#LABEL SELECTMODE
 		lblSelectmode = tkinter.Label(mf, text="OPZIONI PER SELECTMODE")
 		lblSelectmode.grid(row=0, column=0, columnspan=4, sticky=tkinter.EW)
@@ -72,7 +70,6 @@ class Finestra(tkinter.Tk):
 		listColori = tkinter.Listbox(mf, listvariable=varColori, height=5, selectmode=tkinter.MULTIPLE)
 		listColori.grid(row=2, column=3)
 	
-		#////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		#LABEL SCROLLBAR
 		lblScrollbar = tkinter.Label(mf, text="SCROLLBAR")
 		lblScrollbar.grid(row=3, column=0, columnspan=4, sticky=tkinter.EW)
@@ -87,7 +84,6 @@ class Finestra(tkinter.Tk):
 		listLinguaggi['yscrollcommand'] = scrollbar.set
 		scrollbar.grid(row=4, column=1, sticky=tkinter.NS)
 		
-		#////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		#LABEL OPERAZIONI
 		lblOperazioni = tkinter.Label(mf, text="OPERAZIONI SULLE LISTE (Vedere codice)")
 		lblOperazioni.grid(row=5, column=0, columnspan=4, sticky=tkinter.EW)
@@ -102,7 +98,6 @@ class Finestra(tkinter.Tk):
 		#Elimino il nome nella posizione 2 ("Francesco")
 		listNomi.delete(2)
 		
-		#////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		#LABEL SELEZIONE
 		lblSelezione = tkinter.Label(mf, text="VALORE SELEZIONATO")
 		lblSelezione.grid(row=7, column=0, columnspan=4, sticky=tkinter.EW)
@@ -116,7 +111,6 @@ class Finestra(tkinter.Tk):
 		btnConferma = tkinter.Button(mf, text='CONFERMA', command=self.stampaSelezione, bg="lightgreen")
 		btnConferma.grid(row=8, column=1)
 		
-		#////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		#BUTTON ESCI
 		btnEsci = tkinter.Button(mf, text="ESCI", command=self.destroy, bg="red")
 		btnEsci.grid(row=9, column=0, columnspan=4, sticky=tkinter.EW)
@@ -127,11 +121,9 @@ class Finestra(tkinter.Tk):
 			print(self.listSport.get(i))
 			mbox.showinfo("Selezione", self.listSport.get(i))
 			
-#------------------------------------------------------------------------------------------------------------------------------------
 def main():
 	f = Finestra('Widget Listbox')
 	f.mainloop()
-#------------------------------------------------------------------------------------------------------------------------------------
 main()
 `],
 		prestetazione: "link della tua presentazione (canva) esportata in HTML"
