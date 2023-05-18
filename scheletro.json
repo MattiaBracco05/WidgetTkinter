@@ -1,5 +1,15 @@
 [{
 	keyword: ["Lista delle key word per filtrare il tuo widget"]
+	nome: "Bracco Mattia",
+	parte:[
+		titolo: "Listbox",
+		corpo: "Attraverso una listbox l’utente può visualizzare una tendina contenente diverse opzioni fra le quali può effettuare delle selezioni.",
+		code: ["", "Inserisci un eventuale 2° codice (in caso di altri aggiungerne)"],
+		prestetazione: "link della tua presentazione (canva) esportata in HTML"
+	]}				
+],
+[{
+	keyword: ["Lista delle key word per filtrare il tuo widget"]
 	nome: "inserire nome widget",
 	parte:[
 		titolo: "titolo della presentazione",
