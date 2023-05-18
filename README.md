@@ -1,2 +1,2 @@
 # WidgetTkinter
-Questo repository contine i file di esempio delle presentazioni dei widget della Tkinter
+Questo repository contine un file json contenente le informazioni delle presentazioni dei widget della Tkinter
