@@ -10,6 +10,16 @@
 ],
 [{
 	keyword: ["Lista delle key word per filtrare il tuo widget"]
+	nome: "De Boni Simone",
+	parte:[
+		titolo: "Checkbutton",
+		corpo: "spiega brevemente in 5/10 righe a cosa serve il tuo widget",
+		code: ["Inserisci il codice di esempio", "Inserisci un eventuale 2° codice (in caso di altri aggiungerne)"],
+		prestetazione: "https://www.canva.com/design/DAFfxoltwcg/O_sJAmSX29-pS-1xUnrVkw/edit?utm_content=DAFfxoltwcg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+	]}				
+],
+[{
+	keyword: ["Lista delle key word per filtrare il tuo widget"]
 	nome: "inserire nome widget",
 	parte:[
 		titolo: "titolo della presentazione",
