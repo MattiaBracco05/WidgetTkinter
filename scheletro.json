@@ -1,0 +1,9 @@
+[{
+	nome: "inserire nome widget",
+	parte:[
+		titolo: "titolo della present	azione",
+		corpo: "spiega brevemente in 5/10 righe a cosa serve il tuo widget",
+		code: ["Inserisci il codice di esempio", "Inserisci un eventuale 2° codice (in caso di altri aggiungerne)"] ,
+		prestetazione: "link della tua presentazione (canva) esportata in HTML"
+	]}				
+]
