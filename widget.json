@@ -4,7 +4,7 @@
 	parte:[
 		titolo: "Listbox",
 		corpo: "Attraverso una listbox l’utente può visualizzare una tendina contenente diverse opzioni fra le quali può effettuare delle selezioni.",
-		code: ["#4C Bracco Mattia - TKINTER Widget listbox
+		code: [`#4C Bracco Mattia - TKINTER Widget listbox
 
 import tkinter
 from tkinter import ttk
@@ -133,7 +133,7 @@ def main():
 	f.mainloop()
 #------------------------------------------------------------------------------------------------------------------------------------
 main()
-"],
+`],
 		prestetazione: "link della tua presentazione (canva) esportata in HTML"
 	]}				
 ],
@@ -147,7 +147,7 @@ main()
 	parte:[
 		titolo: "Checkbutton",
 		corpo: "I checkbutton sono utilizzati per visualizzare una serie di opzioni all'utente come pulsanti di commutazione. Grazie a questo widget, della Tkinter, l'utente può selezionare una o più opzioni facendo clic sul pulsante corrispondente a ciascuna opzione.",
-		code: ["#Presentazione - Checkbutton 
+		code: [`#Presentazione - Checkbutton 
 #De Boni Simone
 
 import tkinter
@@ -294,7 +294,7 @@ def main():
     f.mainloop()
 
 main()
-        "],
+        `],
 		prestetazione: "https://www.canva.com/design/DAFfxoltwcg/O_sJAmSX29-pS-1xUnrVkw/edit?utm_content=DAFfxoltwcg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
 	]}				
 ],
