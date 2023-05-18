@@ -142,7 +142,7 @@ main()
 
 
 [{
-	keyword: ["checkbutton", "check", "button", "photoimage", "selezione", "scelta", "pulsante", "click"],
+	keyword: ["checkbutton", "check", "button", "selezione", "scelta", "pulsante", "click"],
 	nome: "De Boni Simone",
 	parte:[
 		titolo: "Checkbutton",
