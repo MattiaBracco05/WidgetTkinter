@@ -1,11 +1,11 @@
 [
 	{
 	"keyword": ["Lista delle key word per filtrare il tuo widget"],
-	"nome": "inserire nome widget",
+	"nome": "inserite il vostro nome",
 	"parte":[
 			{
 				"titolo": "titolo della presentazione",
-				"corpo": "spiega brevemente in 5/10 righe a cosa serve il tuo widget",
+				"corpo": "spiega brevemente in 5/10 righe a cosa serve il tuo widget, non siate banali inserite l'essenziale e indicate brevemente le sue keyword",
 				"code": ["Inserisci il codice di esempio", "Inserisci un eventuale 2° codice (in caso di altri aggiungerne)"],
 				"prestetazione": "link della tua presentazione (canva) esportata in HTML"
 			}
