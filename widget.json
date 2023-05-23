@@ -60,8 +60,9 @@
 			}
 		]
 	},
+	
 	{
-		"keyword": ["pack"
+		"keyword": ["pack",
 			    "pa",
 			    "pac",
 			    "p",
