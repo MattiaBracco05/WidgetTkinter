@@ -90,14 +90,14 @@
 		    "layout",
 		    "disposizione"
 		],
-		"nome": "Di Marco Mirko",
-		"parte": [
+	"nome": "Di Marco Mirko",
+	"parte": [
 			{
 				"titolo": "Pack",
 				"corpo": "Il metodo <strong>pack()</strong> in Tkinter è utilizzato per posizionare e allineare i widget all'interno di un contenitore. È un modo semplice per organizzare i componenti di un'interfaccia grafica. Chiamando pack() su un widget, puoi specificare come desideri che venga posizionato nel suo contenitore padre. È possibile utilizzare opzioni aggiuntive come side (lato), fill (riempimento) e expand (espansione) per personalizzare ulteriormente il comportamento del widget. Il metodo pack() segue un layout predefinito, che di solito è un allineamento verticale dall'alto verso il basso. È un modo veloce e semplice per iniziare a posizionare i widget nella tua interfaccia grafica, ma potresti considerare metodi più avanzati se hai bisogno di layout più complessi.",
 				"code": ["import tkinter as tk\nfrom tkinter import messagebox\nclass Finestra(tk.Tk):\n\tdef __init__(self,nome=''):\n\t\tsuper().__init__()\n\t\tself.title('Gestione '+ nome)\n\t\tself.geometry('750x450')\n\t\tself.resizable(1,1)\n\t\tself.creawidget()\n\tdef creawidget(self):\n\t\twidget1=tk.Label(self,text='expand=True || fill=y || side=top',bg='Red')\n\t\twidget1.pack(side='top',expand=True,fill='y')\n\t\t\n\t\t\n\t\twidget2=tk.Label(self,text='expand=False || fill=both || side=top',bg='green')\n\t\twidget2.pack(side='top',expand=False,fill='both')\n\t\t\n\t\t\n\t\twidget3=tk.Label(self,text='expand=True || fill=both || side=top',bg='yellow')\n\t\twidget3.pack(side='top',expand=True,fill='both')\n\t\t\n\t\tspace=tk.Label(self,text='')\n\t\tspace.pack(side='top',expand=True,fill='both')\n\t\t\n\t\t\n\t\twidget4=tk.Label(self,text='expand=True || fill=None || side=left',bg='Red')\n\t\twidget4.pack(side='left',expand=True,fill=None)\n\t\t\n\t\t\n\t\twidget5=tk.Label(self,text='expand=False || fill=y || side=left',bg='green')\n\t\twidget5.pack(side='left',expand=False,fill=None)\n\t\t\n\t\t\n\t\twidget6=tk.Label(self,text='expand=True || fill=x || side=left',bg='yellow')\n\t\twidget6.pack(side='left',expand=True,fill='x')\n\t\t\n\t\tspace2=tk.Label(self,text='')\n\t\tspace2.pack(side='top',expand=True,fill='both')\n\t\t\n\t\tspace3=tk.Label(self,text='')\n\t\tspace3.pack(side='top',expand=True,fill='both')\n\t\t\ndef main():\n\twin=Finestra('Pack')\n\twin.mainloop()\nmain()\n"],
 				"prestetazione": "https://www.canva.com/design/DAFjvqZC4zg/KSeCEAxNBJbmyKQs8-NfyA/view",
-				"pdf": ""
+				"pdf": "https://github.com/MattiaBracco05/WidgetTkinter/blob/1a532b82e6c5c3646807e849462595678883dd5a/PDF/pack.pdf"
 			}
 		]
 	},
