@@ -1,7 +1,11 @@
 [
 	
 	{
-	"keyword": ["filedialog","file", "finestra di dialogo file", "finestra di dialogo"],
+	"keyword": ["filedialog",
+		    "file",
+		    "finestra di dialogo file",
+		    "finestra di dialogo"
+	],
 	"nome": "Alba Luca",
 	"parte": [
 			{
@@ -14,7 +18,13 @@
 	},
 	
 	{
-	"keyword": ["listbox", "lista", "list", "scroll", "scorrimento", "tendina"],
+	"keyword": ["listbox",
+		    "lista",
+		    "list",
+		    "scroll",
+		    "scorrimento",
+		    "tendina"
+	],
 	"nome": "Bracco Mattia",
 	"parte": [
 			{
@@ -27,7 +37,14 @@
 	},
 	
 	{
-	"keyword": ["checkbutton", "check", "button", "selezione", "scelta", "pulsante", "click"],
+	"keyword": ["checkbutton",
+		    "check",
+		    "button",
+		    "selezione",
+		    "scelta",
+		    "pulsante",
+		    "click"
+	],
 	"nome": "De Boni Simone",
 	"parte": [
 			{
@@ -40,9 +57,15 @@
 	},
 	
 	{
-	"keyword": ["bind", "bind()", "la bind()", "la bind", "metodo bind", "eventi"],
+	"keyword": ["bind",
+		    "bind()",
+		    "la bind()",
+		    "la bind",
+		    "metodo bind",
+		    "eventi"
+	],
 	"nome": "Paseri Kevin",
-	"parte":[
+	"parte": [
 			{
 				"titolo": "Il metodo bind",
 				"corpo": "La <strong>bind()</strong> è un metodo che permette di associare a un widget qualunque il gestore di un evento. Assomiglia alla <strong>command</strong> del tk.Button per attivare il metodo associato in seguito al click del mouse, ma attraverso questo metodo potremmo anche gestire i tasti della tastiera, oltre ovviamente al mouse.",
