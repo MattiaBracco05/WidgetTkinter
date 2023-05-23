@@ -61,12 +61,12 @@
 	},
 	
 	{
-		"keyword": ["pack",
-			    "pa",
-			    "pac",
-			    "p",
-			    "layout",
-			    "disposizione"
+	"keyword": ["pack",
+		    "pa",
+		    "pac",
+		    "p",
+		    "layout",
+		    "disposizione"
 		],
 		"nome": "Di Marco Mirko",
 		"parte": [
@@ -78,6 +78,7 @@
 			}
 		]
 	},
+	
 	{
 	"keyword": ["PanedWindow",
 		    "window",
@@ -100,13 +101,14 @@
 			}
 		]
 	},
+	
 	{
-		"keyword": ["bind",
-			    "bind()",
-			    "la bind()",
-			    "la bind",
-			    "metodo bind",
-			    "eventi"
+	"keyword": ["bind",
+		    "bind()",
+		    "la bind()",
+		    "la bind",
+		    "metodo bind",
+		    "eventi"
 		],
 		"nome": "Paseri Kevin",
 		"parte": [
