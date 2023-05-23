@@ -36,5 +36,18 @@
 				"prestetazione": "https://lucx-albx.github.io/Filedialog_guida/index.html"
 			}
 		]
-	}	
+	},
+	
+	{
+	"keyword": ["bind", "bind()", "la bind()", "la bind", "metodo bind", "eventi"],
+	"nome": "Paseri Kevin",
+	"parte":[
+			{
+				"titolo": "Il metodo bind",
+				"corpo": "La <strong>bind()</strong> è un metodo che permette di associare a un widget qualunque il gestore di un evento. Assomiglia alla <strong>command</strong> del tk.Button per attivare il metodo associato in seguito al click del mouse, ma attraverso questo metodo potremmo anche gestire i tasti della tastiera, oltre ovviamente al mouse.",
+				"code": ["Inserisci il codice di esempio", "Inserisci un eventuale 2° codice (in caso di altri aggiungerne)"],
+				"prestetazione": "https://www.canva.com/design/DAFf5hzHtWk/s3-afKyTM_wJCJK62HGawQ/view?website#2:titolo"
+			}
+		]
+	}
 ]
