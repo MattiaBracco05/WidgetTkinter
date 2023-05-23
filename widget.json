@@ -57,9 +57,11 @@
 	},
 	{
 		"keyword": ["pack"
-			    "Pack","pa",
+			    "pa",
 			    "pac",
-			    "p"
+			    "p",
+			    "layout",
+			    "disposizione"
 		],
 		"nome": "Di Marco Mirko",
 		"parte": [
