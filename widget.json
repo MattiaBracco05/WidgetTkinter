@@ -49,5 +49,18 @@
 				"prestetazione": "https://www.canva.com/design/DAFf5hzHtWk/s3-afKyTM_wJCJK62HGawQ/view?website#2:titolo"
 			}
 		]
+	},
+	
+	{
+	"keyword": ["radiobutton", "Radiobutton", "radio", "il radiobutton", "selezionare", "pallino rotondo"],
+	"nome": "Culasso Edoardo",
+	"parte":[
+			{
+				"titolo": "Il Radiobutton",
+				"corpo": "Il <strong>Radiobutton</strong> è un <strong>widget della tkinter</strong> che ti permette di <strong>selezionare</strong> una cosa di un gruppo di oggetti, e per utilizzarlo non serve importare cose tranne la tkinter e si crea così: <strong>tk.Radiobutton.</strong>",
+				"code": ["Inserisci il codice di esempio", "Inserisci un eventuale 2° codice (in caso di altri aggiungerne)"],
+				"prestetazione": "https://www.canva.com/design/DAFjv-fRzZ8/1zKCOF67tyU0zaMZ1_LeVg/view?website#2:il-radiobutton"
+			}
+		]
 	}
 ]
