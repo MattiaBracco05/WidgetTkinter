@@ -1,4 +1,4 @@
-# WidgetTkinter
+# Widget della Tkinter
 ### Repository contenente le presentazioni dei widget della TKINTER utilizzato con Python3
 
 ## `PDF`
