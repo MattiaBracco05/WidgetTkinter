@@ -7,7 +7,8 @@
 				"titolo": "nome del widget",
 				"corpo": "spiega brevemente in 5/10 righe a cosa serve il tuo widget, non siate banali inserite l'essenziale e indicate brevemente le sue keyword",
 				"code": ["Questo lo inseriamo noi, tu mandaci il codice", "Idem"],
-				"prestetazione": "link della tua presentazione (canva) esportata in HTML"
+				"prestetazione": "link della tua presentazione (canva) esportata in HTML",
+				"pdf": "Inseriamo noi quando ci mandate il PDF"
 			}
 		]
 	}				
