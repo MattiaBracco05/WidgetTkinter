@@ -133,8 +133,8 @@
 		    "metodo bind",
 		    "eventi"
 		],
-		"nome": "Paseri Kevin",
-		"parte": [
+	"nome": "Paseri Kevin",
+	"parte": [
 			{
 				"titolo": "Il metodo bind",
 				"corpo": "La <strong>bind()</strong> è un metodo che permette di associare a un widget qualunque il gestore di un evento. Assomiglia alla <strong>command</strong> del tk.Button per attivare il metodo associato in seguito al click del mouse, ma attraverso questo metodo potremmo anche gestire i tasti della tastiera, oltre ovviamente al mouse.",
