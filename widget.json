@@ -1,27 +1,4 @@
-[
-	{
-	"keyword": ["PanedWindow",
-		    "window",
-		    "pannello",
-		    "ridimensiona",
-		    "panedWindow",
-		    "panedwindow",
-		    "paned",
-		    "trascina",
-		    "espandi",
-		    "riduci"
-	],
-	"nome": "Martini Gabriele",
-	"parte": [
-			{
-				"titolo": "PanedWindow",
-				"corpo": "Il <strong>PanedWindow</strong> è un <strong>contenitore</strong> in cui è possibile aggiungere dei widget (figli). Esso è suddiviso a <strong>fasce</strong>, che possono essere verticali o orizzontali (a seconda di come si decide di disporre i widget. Ogni fascia ha una maniglia. La particolarità di questo widget è che tramite le fasce possiamo andare a <strong>rimodellare</strong> lo spazio assegnato a ciascun widget figlio, ovviamente designando più <strong>spazio</strong> ad un widget l'altro ne avrà di meno. Un esempio pratico sono le varie 'pagine secondarie' degli editor di testo e/o foto/video.",
-				"code": ["Questo lo inseriamo noi, tu mandaci il codice", "Idem"],
-				"prestetazione": "https://view.genial.ly/6431721d14a74800184df5b8/guide-python-tkinter-panedwindow"
-			}
-		]
-	},
-	
+[	
 	{
 	"keyword": ["filedialog",
 		    "file",
@@ -100,7 +77,29 @@
 				"prestetazione": "https://www.canva.com/design/DAFjvqZC4zg/KSeCEAxNBJbmyKQs8-NfyA/view"
 			}
 		]
-	},		
+	},
+	{
+	"keyword": ["PanedWindow",
+		    "window",
+		    "pannello",
+		    "ridimensiona",
+		    "panedWindow",
+		    "panedwindow",
+		    "paned",
+		    "trascina",
+		    "espandi",
+		    "riduci"
+	],
+	"nome": "Martini Gabriele",
+	"parte": [
+			{
+				"titolo": "PanedWindow",
+				"corpo": "Il <strong>PanedWindow</strong> è un <strong>contenitore</strong> in cui è possibile aggiungere dei widget (figli). Esso è suddiviso a <strong>fasce</strong>, che possono essere verticali o orizzontali (a seconda di come si decide di disporre i widget. Ogni fascia ha una maniglia. La particolarità di questo widget è che tramite le fasce possiamo andare a <strong>rimodellare</strong> lo spazio assegnato a ciascun widget figlio, ovviamente designando più <strong>spazio</strong> ad un widget l'altro ne avrà di meno. Un esempio pratico sono le varie 'pagine secondarie' degli editor di testo e/o foto/video.",
+				"code": ["Questo lo inseriamo noi, tu mandaci il codice", "Idem"],
+				"prestetazione": "https://view.genial.ly/6431721d14a74800184df5b8/guide-python-tkinter-panedwindow"
+			}
+		]
+	},
 	{
 		"keyword": ["bind",
 			    "bind()",
