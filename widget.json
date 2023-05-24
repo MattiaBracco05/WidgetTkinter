@@ -80,6 +80,7 @@
 	},
 	
 	{
+	"nome": "Culasso Edoardo",
 	"keyword": ["radiobutton",
 		    "radiobutton",
 		    "radio",
@@ -87,7 +88,6 @@
 		    "selezionare",
 		    "pallino rotondo"
 	],
-	"nome": "Culasso Edoardo",
 	"parte": [
 			{
 				"titolo": "Radiobutton",
@@ -100,6 +100,7 @@
 	},
 	
 	{
+	"nome": "De Boni Simone",
 	"keyword": ["checkbutton",
 		    "check",
 		    "button",
@@ -108,7 +109,6 @@
 		    "pulsante",
 		    "click"
 	],
-	"nome": "De Boni Simone",
 	"parte": [
 			{
 				"titolo": "Checkbutton",
@@ -121,6 +121,7 @@
 	},
 	
 	{
+	"nome": "Di Marco Mirko",
 	"keyword": ["pack",
 		    "pa",
 		    "pac",
@@ -128,7 +129,6 @@
 		    "layout",
 		    "disposizione"
 		],
-	"nome": "Di Marco Mirko",
 	"parte": [
 			{
 				"titolo": "Pack",
