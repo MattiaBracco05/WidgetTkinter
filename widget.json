@@ -197,7 +197,37 @@
 			}
 		]
 	},
-		
+	
+	{
+	"nome": "Beniamino Galfre",
+	"keyword": [	
+		"barra",
+		"scrollbar",
+		"sc",
+		"scr",
+		"scro",
+		"scrol",
+		"scroll",
+		"scrollb",
+		"scrollba",
+		"barra di scorrimento",
+		"scorrimento",
+		"metodo set()",
+		"scroll",
+		"scrolbar",
+		"bar"
+	],
+	"parte": [
+			{
+				"titolo": "Scrollbar",
+				"corpo": "In informatica una barra di scorrimento (scrollbar) è un widget di controllo grafico con cui testi, immagini, icone, elementi ed altri oggetti visualizzati sullo schermo all'interno di una finestra del sistema operativo o di una applicazione, possono essere traslati verticalmente o orizzontalmente permettendo all'utente la visualizzazione completa di tutti i suoi contenuti. L'utilizzo della barra di scorrimento è detto scrolling ovvero scorrimento della finestra.",
+				"code": ["Questo lo inseriamo noi, tu mandaci il codice", "Idem"],
+				"prestetazione": "https://github.com/MattiaBracco05/WidgetTkinter/blob/2cc97fcda51b973c235d89320990eed3becab651/PDF/scrollbar.pdf",
+				"pdf": "https://github.com/MattiaBracco05/WidgetTkinter/blob/2cc97fcda51b973c235d89320990eed3becab651/PDF/scrollbar.pdf"
+			}
+		]
+	},
+	
 	{
 	"nome": "Giusiano Massimo",
 	"keyword": ["scale",
@@ -522,39 +552,6 @@
 				"pdf": ""
 			}
 		]
-	},
-	
-	
-	{
-	"keyword": [	
-		"barra",
-		"scrollbar",
-		"sc",
-		"scr",
-		"scro",
-		"scrol",
-		"scroll",
-		"scrollb",
-		"scrollba",
-		"barra di scorrimento",
-		"scorrimento",
-		"metodo set()",
-		"scroll",
-		"scrolbar",
-		"bar"
-	],
-	"nome": "Beniamino Galfre",
-	"parte": [
-			{
-				"titolo": "scrollbar",
-				"corpo": "In informatica una barra di scorrimento (scrollbar) è un widget di controllo grafico con cui testi, immagini, icone, elementi ed altri oggetti visualizzati sullo schermo all'interno di una finestra del sistema operativo o di una applicazione, possono essere traslati verticalmente o orizzontalmente permettendo all'utente la visualizzazione completa di tutti i suoi contenuti. L'utilizzo della barra di scorrimento è detto scrolling ovvero scorrimento della finestra.",
-				"code": ["Questo lo inseriamo noi, tu mandaci il codice", "Idem"],
-				"prestetazione": "https://github.com/MattiaBracco05/WidgetTkinter/blob/main/PDF/Scrollbar.pdf",
-				"pdf": ""
-			}
-		]
 	}
-	
-
 
 ]
