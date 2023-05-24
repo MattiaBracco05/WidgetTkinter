@@ -40,6 +40,20 @@
 	},
 	
 	{
+	"keyword": ["barra di progresso","progress bar","progressione","scorrimento"],
+	"nome": "Soave Sebastiano",
+	"parte":[
+			{
+				"titolo": "Scroll Bar",
+				"corpo": "la Scroll bar è un widget della tkinter che viene incluso dalla ttk che permette di avere una barra di progressione verticale orizontale  per dei download o barre di vita per dichiarare l'oggetto bassta fare ttk.Progressbar(MainFrame) ci sono 3 parametri fondamentali max , orient , mode",
+				"code": [""],
+				"prestetazione": "https://www.canva.com/design/DAFjWKE7p60/Q1MhznzbSNS1ypsTHQryOA/view?website#2",
+				"pdf": ""
+			}
+		]
+	},	
+	
+	{
 	"nome": "Barra Leonardo",
 	"keyword": ["spinbox",
 		    "spin",
