@@ -159,9 +159,15 @@
 			}
 		]
 	},
-		{
-	"keyword": ["Scale","Scala","scorri","Sc","Sca","Scal"],
+		
+	{
 	"nome": "Giusiano Massimo",
+	"keyword": ["scale",
+		    "scala",
+		    "scorri",
+		    "sc",
+		    "sca",
+		    "scal"],
 	"parte": [
 			{
 				"titolo": "Scale",
