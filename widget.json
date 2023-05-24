@@ -432,6 +432,20 @@
 				"pdf": "https://github.com/MattiaBracco05/WidgetTkinter/blob/d013f7723be2d871c7faaa11f32865a5610875a1/PDF/canvas.pdf"
 			}
 		]
+	},
+	
+	{
+	"keyword": ["messagebox", "messaggi", "avvisi"],
+	"nome": "Rolle Pietro",
+	"parte": [
+			{
+				"titolo": "Messagebox",
+				"corpo": "Il Messagebox è un widget della libreria Tkinter che consente di mostrare all'utente messaggi di diverso tipo come avvisi, informazioni o errori, ma anche di chiedere all'utente di confermare o annullare un'azione. Le tipologie dei messagebox sono showinfo, showwarning, showerror, askquestion, askokcancel, askyesno",
+				"code": ["Questo lo inseriamo noi, tu mandaci il codice", "Idem"],
+				"prestetazione": "https://app.decktopus.com/share/PfHHRAU-9/s/5",
+				"pdf": ""
+			}
+		]
 	}
 
 
