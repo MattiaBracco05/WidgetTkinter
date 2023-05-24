@@ -32,7 +32,7 @@
 			{
 				"titolo": "Combobox",
 				"corpo": "La combobox serve per realizzare un menù a tendina",
-				"code": ["", ""],
+				"code": ["# Audisio Combobox\nimport tkinter as tk\nfrom tkinter import ttk\nfrom tkinter import messagebox\n\nclass Finestra(tk.Tk):\n\tdef __init__(self):\n\t\tsuper().__init__()\n\t\tself.title('Audisio Combobox')\n\t\tself.geometry('500x500')\n\t\tself.resizable(0, 0)\n\t\tself.create_widgets()\n\n\tdef create_widgets(self):\n\t\topzioni = ['opzione 1', 'opzione 2', 'opzione 3']\n\n\t\tself.combo = ttk.Combobox(self, values=opzioni)\n\t\tself.combo.pack()\n\n\t\tself.button = tk.Button(self, text='Scelta', command=self.visualizza_selezione)\n\t\tself.button.pack()\n\n\tdef visualizza_selezione(self):\n\t\tselezione = self.combo.get()\n\t\ttk.messagebox.showinfo('Selezione', 'Hai selezionato: {}'.format(selezione))\n\nroot = Finestra()\nroot.mainloop()\n", ""],
 				"prestetazione": "https://www.canva.com/design/DAFf5Z9IVkc/ZrCsjbfqrUjtNL6F_jkIfQ/view?website#2",
 				"pdf": "https://github.com/MattiaBracco05/WidgetTkinter/blob/80470f4bda4e82594b356994c42520ab3d74a6f2/PDF/combobox.pdf"
 			}
