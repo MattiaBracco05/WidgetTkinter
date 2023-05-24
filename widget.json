@@ -1,11 +1,11 @@
 [	
 	{
+	"nome": "Alba Luca",
 	"keyword": ["filedialog",
 		    "file",
 		    "finestra di dialogo file",
 		    "finestra di dialogo"
 	],
-	"nome": "Alba Luca",
 	"parte": [
 			{
 				"titolo": "Filedialog",
@@ -18,12 +18,12 @@
 	},
 	
 	{
+	"nome": "Audisio Nicolo",
 	"keyword": ["",
 		    "",
 		    "",
 		    ""
 	],
-	"nome": "Audisio Nicolo",
 	"parte": [
 			{
 				"titolo": "Combobox",
@@ -36,13 +36,13 @@
 	},
 	
 	{
+	"nome": "Barra Leonardo",
 	"keyword": ["spinbox",
 		    "spin",
 		    "box",
 		    "selezione"
 		 
 	],
-	"nome": "Barra Leonardo",
 	"parte": [
 			{
 				"titolo": "SpinBox",
@@ -55,6 +55,7 @@
 	},
 	
 	{
+	"nome": "Bracco Mattia",
 	"keyword": ["listbox",
 		    "lista",
 		    "list",
@@ -67,7 +68,6 @@
 		    "selezione",
 		    "scelta"
 	],
-	"nome": "Bracco Mattia",
 	"parte": [
 			{
 				"titolo": "Listbox",
