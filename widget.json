@@ -159,6 +159,19 @@
 			}
 		]
 	},
+		{
+	"keyword": ["Scale","scale","Scala","scala","scorri","Sc","Sca","Scal"],
+	"nome": "Giusiano Massimo",
+	"parte": [
+			{
+				"titolo": "Scale",
+				"corpo": "Il Metodo Scale è uno dei widget di Tkinter utilizzato per creare una barra di scorrimento. Questo widget permette all'utente di selezionare un valore da un intervallo specifico.Il Metodo Scale può essere personalizzato per soddisfare le esigenze dello sviluppatore, ad esempio modificando l'intervallo di valori disponibili o cambiando il colore della barra di scorrimento. Il Metodo Scale può essere personalizzato per soddisfare le esigenze dell'utente. Ad esempio, è possibile modificare il colore della barra di scorrimento utilizzando il parametro troughcolor.Inoltre, è possibile modificare l'aspetto del cursore utilizzando il parametro sliderlength, che definisce la lunghezza del cursore rispetto alla larghezza della barra di scorrimento.",
+				"code": ["Questo lo inseriamo noi, tu mandaci il codice", "Idem"],
+				"prestetazione": "https://github.com/MattiaBracco05/WidgetTkinter/blob/3565f0b396afdd210c76a262173fd10d81327be0/PDF/scale.pdf",
+				"pdf": "https://github.com/MattiaBracco05/WidgetTkinter/blob/3565f0b396afdd210c76a262173fd10d81327be0/PDF/scale.pdf"
+			}
+		]
+	},
 	
 	{
 	"nome": "Martini Gabriele",
