@@ -54,7 +54,11 @@
 	{
 	"nome": "Barra Leonardo",
 	"keyword": ["spinbox",
+		    "sp",
+		    "spi",
 		    "spin",
+		    "spinb",
+		    "spinbo",
 		    "box",
 		    "selezione"
 	],
@@ -72,6 +76,10 @@
 	{
 	"nome": "Bracco Mattia",
 	"keyword": ["listbox",
+		    "li",
+		    "lis",
+		    "listb",
+		    "listbo",
 		    "lista",
 		    "list",
 		    "scroll",
@@ -97,8 +105,14 @@
 	{
 	"nome": "Culasso Edoardo",
 	"keyword": ["radiobutton",
-		    "radiobutton",
+		    "ra",
+		    "rad",
 		    "radio",
+		    "radiob",
+		    "radiobu",
+		    "radiobut",
+		    "radiobutt",
+		    "radiobutto",
 		    "il radiobutton",
 		    "selezionare",
 		    "pallino rotondo"
@@ -117,7 +131,15 @@
 	{
 	"nome": "De Boni Simone",
 	"keyword": ["checkbutton",
+		    "ch",
+		    "che",
+		    "chec",
 		    "check",
+		    "checkb",
+		    "checkbu",
+		    "checkbut",
+		    "checkbutt",
+		    "checkbutto",
 		    "button",
 		    "selezione",
 		    "scelta",
@@ -158,12 +180,12 @@
 	{
 	"nome": "Dossetto Giuseppe",
 	"keyword": ["text",
+		    "te",
+		    "tex",
 		    "widget",
 		    "casella",
 		    "testo",
-		    "box",
-		    "tk",
-		    "tkinter"
+		    "box"
 		],
 	"parte": [
 			{
@@ -197,6 +219,14 @@
 	{
 	"nome": "Martini Gabriele",
 	"keyword": ["PanedWindow",
+		    "pa",
+		    "pan",
+		    "pane",
+		    "panedw",
+		    "panedwi",
+		    "panedwin",
+		    "panedwind",
+		    "panedwindo",
 		    "window",
 		    "pannello",
 		    "ridimensiona",
@@ -219,6 +249,8 @@
 	{
 	"nome": "Minetti Leonardo",
 	"keyword": ["menu",
+		    "me",
+		    "men",
 		    "il menu",
 		    "navbar",
 		    "barra di navigazione",
@@ -239,6 +271,8 @@
 	{
 	"nome": "Paseri Kevin",
 	"keyword": ["bind",
+		    "bi",
+		    "bin",
 		    "bind()",
 		    "la bind()",
 		    "la bind",
@@ -257,7 +291,21 @@
 	},
 	
 	{
-	"keyword": ["barra di progresso","progress bar","progressione","scorrimento"],
+	"keyword": [
+		"barra di progresso",
+		"progress bar",
+		"pr",
+		"pro",
+		"prog",
+		"progr",
+		"progres",
+		"progress",
+		"progressb",
+		"progressba",
+		"progressbar",
+		"progressione",
+		"scorrimento"
+	],
 	"nome": "Soave Sebastiano",
 	"parte":[
 			{
@@ -272,9 +320,11 @@
 	
 	{
 	"nome": "Zhou ChengHuan",
-	"keyword": ["Tkinter",
-		    "widget",
-		    "Canvas",
+	"keyword": ["Canvas",
+		    "Ca",
+		    "Can",
+		    "Canv",
+		    "Canva",
 		    "grafica",
 		    "2D",
 		    "interattivo",
@@ -448,7 +498,19 @@
 	
 	
 	{
-	"keyword": ["messagebox", "messaggi", "avvisi"],
+	"keyword": [
+		"messagebox",
+		"me",
+		"mes",
+		"mess",
+		"messa",
+		"messag",
+		"message",
+		"messageb",
+		"messagebo",
+		"messaggi",
+		"avvisi"
+	],
 	"nome": "Rolle Pietro",
 	"parte": [
 			{
@@ -463,14 +525,23 @@
 	
 	
 	{
-	"keyword": [	"barra",
-			"scrollbar",
-			"barra di scorrimento",
-			"scorrimento",
-			"metodo set()",
-			"scroll",
-			"scrolbar",
-			"bar"],
+	"keyword": [	
+		"barra",
+		"scrollbar",
+		"sc",
+		"scr",
+		"scro",
+		"scrol",
+		"scroll",
+		"scrollb",
+		"scrollba",
+		"barra di scorrimento",
+		"scorrimento",
+		"metodo set()",
+		"scroll",
+		"scrolbar",
+		"bar"
+	],
 	"nome": "Beniamino Galfre",
 	"parte": [
 			{
