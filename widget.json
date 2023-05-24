@@ -141,8 +141,9 @@
 	},
 	
 	{
-		"keyword": ["text",
-			"widget",
+	"nome": "Dossetto Giuseppe",
+	"keyword": ["text",
+		"widget",
 			"casella",
 			"testo",
 			"box",
@@ -150,7 +151,6 @@
 			"tkinter"
 
 		],
-	"nome": "Dossetto Giuseppe",
 	"parte": [
 			{
 				"titolo": "Text",
@@ -162,6 +162,7 @@
 	},
 	
 	{
+	"nome": "Martini Gabriele",
 	"keyword": ["PanedWindow",
 		    "window",
 		    "pannello",
@@ -171,8 +172,6 @@
 		    "espandi",
 		    "riduci"
 	],
-	
-	"nome": "Martini Gabriele",
 	"parte": [
 			{
 				"titolo": "PanedWindow",
@@ -185,6 +184,7 @@
 	},
 	
 	{
+	"nome": "Minetti Leonardo",
 	"keyword": ["Menu",
 		    "il menu",
 		    "navbar",
@@ -192,8 +192,6 @@
 		    "barra",
 		    "menu()"
 	],
-	
-	"nome": "Minetti Leonardo",
 	"parte": [
 			{
 				"titolo": "Menu",
@@ -206,6 +204,7 @@
 	},
 	
 	{
+	"nome": "Paseri Kevin",
 	"keyword": ["bind",
 		    "bind()",
 		    "la bind()",
@@ -213,7 +212,6 @@
 		    "metodo bind",
 		    "eventi"
 		],
-	"nome": "Paseri Kevin",
 	"parte": [
 			{
 				"titolo": "Il metodo bind",
@@ -226,6 +224,7 @@
 	},
 	
 	{
+	"nome": "Zhou ChengHuan",
 	"keyword": ["Tkinter",
 		    "widget",
 		    "Canvas",
@@ -389,7 +388,6 @@
 		    "creazione di diagrammi",
 		    "progettazione di mappe"
 	],
-	"nome": "Zhou ChengHuan",
 	"parte": [
 			{
 				"titolo": "Canvas",
