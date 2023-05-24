@@ -143,13 +143,12 @@
 	{
 	"nome": "Dossetto Giuseppe",
 	"keyword": ["text",
-		"widget",
-			"casella",
-			"testo",
-			"box",
-			"tk",
-			"tkinter"
-
+		    "widget",
+		    "casella",
+		    "testo",
+		    "box",
+		    "tk",
+		    "tkinter"
 		],
 	"parte": [
 			{
