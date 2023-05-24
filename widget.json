@@ -19,15 +19,19 @@
 	
 	{
 	"nome": "Audisio Nicolo",
-	"keyword": ["",
-		    "",
-		    "",
-		    ""
+	"keyword": ["combobox",
+		    "combo",
+		    "box",
+		    "menu",
+		    "tendina",
+		    "menu a tendina",
+		    "selezione",
+		    "scelta"
 	],
 	"parte": [
 			{
 				"titolo": "Combobox",
-				"corpo": "",
+				"corpo": "La combobox serve per realizzare un menù a tendina",
 				"code": ["", ""],
 				"prestetazione": "",
 				"pdf": ""
