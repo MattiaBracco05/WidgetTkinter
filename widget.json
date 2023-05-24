@@ -309,7 +309,7 @@
 		    "la bind",
 		    "metodo bind",
 		    "eventi"
-		],
+		   ],
 	"parte": [
 			{
 				"titolo": "La Bind",
@@ -322,6 +322,32 @@
 	},
 	
 	{
+	"nome": "Rolle Pietro",
+	"keyword": ["messagebox",
+		    "me",
+		    "mes",
+		    "mess",
+		    "messa",
+		    "messag",
+		    "message",
+		    "messageb",
+		    "messagebo",
+		    "messaggi",
+		    "avvisi"
+		],
+	"parte": [
+			{
+				"titolo": "Messagebox",
+				"corpo": "Il Messagebox è un widget della libreria Tkinter che consente di mostrare all'utente messaggi di diverso tipo come avvisi, informazioni o errori, ma anche di chiedere all'utente di confermare o annullare un'azione. Le tipologie dei messagebox sono showinfo, showwarning, showerror, askquestion, askokcancel, askyesno",
+				"code": ["import tkinter as tk\nfrom tkinter import messagebox\nfrom tkinter.simpledialog import askstring\nfrom tkinter import  Label, Button, PhotoImage\n\n\nclass Finestra(tk.Tk):\n\tdef __init__(self):\n\t\tsuper().__init__()\n\t\tself.title('Messagebox Demo')\n\t\tself.geometry('700x700')\n\t\tself.resizable(0, 0)\n\t\tself.config(bg='white')\n\t\tself.crea_widgets()\n\n\tdef crea_widgets(self):\n\n\t\tmf1 = tk.Frame(self, bg='white')\n\t\tmf1.grid(padx=40, pady=60)\n\n\t\tself.icona = PhotoImage(file='./icona.png')\n\n\t\tself.titolo = tk.Label(mf1, text='Messagebox Demo', font=('Arial', 20, 'bold'), bg='white')\n\t\tself.titolo.grid(row=0, column=0, columnspan = 4, sticky='ew')\n\n\t\tself.label_info = tk.Label(mf1, text='Questo pulsante visualizza un messaggio informativo', font=('Arial', 12), bg='white')\n\t\tself.label_info.grid(row=1, column=1, padx=10)\n\n\t\tself.button_info = tk.Button(mf1, text='Info', font=('Arial', 14, 'bold'), command=self.mostra_info, bg='white', fg='#0072C6', width=15, height=2, bd=0, highlightthickness=0, activebackground='#E6F0FA', activeforeground='#0072C6')\n\t\tself.button_info.grid(row=1, column=0, pady=20)\n\n\t\tself.label_warning = tk.Label(mf1, text='Questo pulsante visualizza un messaggio di avviso', font=('Arial', 12), bg='white')\n\t\tself.label_warning.grid(row=2, column=1, padx=10)\n\n\t\tself.button_warning = tk.Button(mf1, text='Warning', font=('Arial', 14, 'bold'), command=self.mostra_avviso, bg='white', fg='#FFC000', width=15, height=2, bd=0, highlightthickness=0, activebackground='#FFF2CC', activeforeground='#FFC000')\n\t\tself.button_warning.grid(row=2, column=0, pady=20)\n\n\t\tself.label_error = tk.Label(mf1, text='Questo pulsante visualizza un messaggio di errore', font=('Arial', 12), bg='white')\n\t\tself.label_error.grid(row=3, column=1, padx=10)\n\n\t\tself.button_error = tk.Button(mf1, text='Error', font=('Arial', 14, 'bold'), command=self.mostra_errore, bg='white', fg='#C00000', width=15, height=2, bd=0, highlightthickness=0, activebackground='#FFEBEB', activeforeground='#C00000')\n\t\tself.button_error.grid(row=3, column=0, pady=20)\n\n\t\tself.label_insert = tk.Label(mf1, text='Questo pulsante chiede di inserire dei dati', font=('Arial', 12), bg='white')\n\t\tself.label_insert.grid(row=4, column=1, padx=10)\n\n\t\tself.button_insert = tk.Button(mf1, text='Inserire dati', font=('Arial', 14, 'bold'), command=self.chiedi, bg='#800080', fg='white', width=15, height=2, bd=0, highlightthickness=0, activebackground='#c8a2c8', activeforeground='#C00000')\n\t\tself.button_insert.grid(row=4, column=0, pady=20)\n\n\t\tself.label_icona = tk.Label(mf1, text='Questo pulsante fa apparire una message box con icona', font=('Arial', 12), bg='white')\n\t\tself.label_icona.grid(row=5, column=1, padx=10)\n\n\t\tself.button_icona = tk.Button(mf1, text='Icona', font=('Arial', 14, 'bold'), command=self.show_custom_messagebox, bg='#8dfffe', fg='white', width=15, height=2, bd=0, highlightthickness=0, activebackground='#00c1ff', activeforeground='#ffcb2a')\n\t\tself.button_icona.grid(row=5, column=0, pady=20)\n\n\t\tself.label_exit = tk.Label(mf1, text='Questo pulsante chiede la conferma per uscire dal programma', font=('Arial', 12), bg='white')\n\t\tself.label_exit.grid(row=6, column=1, padx=10)\n\n\t\tself.button_exit = tk.Button(mf1, text='Exit', font=('Arial', 14, 'bold'), command=self.domanda, bg='#C00000', fg='white', width=15, height=2, bd=0, highlightthickness=0, activebackground='#FFEBEB', activeforeground='#C00000')\n\t\tself.button_exit.grid(row=6, column=0, pady=20)\n\n\tdef mostra_info(self):\n\t\tmessagebox.showinfo('Info', 'Questo è un messaggio informativo.')\n\n\tdef mostra_avviso(self):\n\t\tmessagebox.showwarning('Warning', 'Si tratta di un messaggio di avvertimento.')\n\n\tdef mostra_errore(self):\n\t\tmessagebox.showerror('Error', 'Si tratta di un messaggio di errore.')\n\n\tdef chiedi(self):\n\t\tnome = askstring('Nome', 'Inserisci il tuo nome')\n\t\tif nome == None:\n\t\t\tmessagebox.showerror('Error', 'Non hai inserito il nome')\n\t\telse:\n\t\t\tmessagebox.showinfo('Buongiorno!', 'Ciao, {}'.format(nome))\n\n\tdef domanda(self):\n\t\trisposta = messagebox.askyesno('Esci', 'Vuoi uscire?')\n\t\tif risposta:\n\t\t\tself.destroy()\n\n\tdef show_custom_messagebox(self):\n\t\tmessagebox = tk.Toplevel()\n\t\tmessagebox.title('Messaggio')\n\t\tmessagebox.iconphoto(True, self.icona)\n\n\t\ticon_label = Label(messagebox, image=self.icona)\n\t\ticon_label.grid(row=0, column=0)\n\n\t\tmessage_label = Label(messagebox, text='Messagio con icona')\n\t\tmessage_label.gird(row=1, column=0)\n\n\t\tclose_button = Button(messagebox, text='Chiudi', command=messagebox.destroy)\n\t\tclose_button.grid(row=2, column=0)\n\ndef main():\n\tf = Finestra()\n\tf.mainloop()\nmain()\n"],
+				"prestetazione": "https://app.decktopus.com/share/PfHHRAU-9/s/5",
+				"pdf": ""
+			}
+		]
+	},
+	
+	{
+	"nome": "Soave Sebastiano",
 	"keyword": [
 		"barra di progresso",
 		"progress bar",
@@ -337,7 +363,6 @@
 		"progressione",
 		"scorrimento"
 	],
-	"nome": "Soave Sebastiano",
 	"parte":[
 			{
 				"titolo": "Progress Bar",
@@ -523,33 +548,6 @@
 				"code": ["https://gitlab.com/xkzyw/tkinter-canvas-editor"],
 				"prestetazione": "https://gitlab.com/xkzyw/tkinter-canvas-editor/-/blob/main/doc/canvas.pdf",
 				"pdf": "https://github.com/MattiaBracco05/WidgetTkinter/blob/d013f7723be2d871c7faaa11f32865a5610875a1/PDF/canvas.pdf"
-			}
-		]
-	},
-	
-	
-	{
-	"keyword": [
-		"messagebox",
-		"me",
-		"mes",
-		"mess",
-		"messa",
-		"messag",
-		"message",
-		"messageb",
-		"messagebo",
-		"messaggi",
-		"avvisi"
-	],
-	"nome": "Rolle Pietro",
-	"parte": [
-			{
-				"titolo": "Messagebox",
-				"corpo": "Il Messagebox è un widget della libreria Tkinter che consente di mostrare all'utente messaggi di diverso tipo come avvisi, informazioni o errori, ma anche di chiedere all'utente di confermare o annullare un'azione. Le tipologie dei messagebox sono showinfo, showwarning, showerror, askquestion, askokcancel, askyesno",
-				"code": ["import tkinter as tk\nfrom tkinter import messagebox\nfrom tkinter.simpledialog import askstring\nfrom tkinter import  Label, Button, PhotoImage\n\n\nclass Finestra(tk.Tk):\n\tdef __init__(self):\n\t\tsuper().__init__()\n\t\tself.title('Messagebox Demo')\n\t\tself.geometry('700x700')\n\t\tself.resizable(0, 0)\n\t\tself.config(bg='white')\n\t\tself.crea_widgets()\n\n\tdef crea_widgets(self):\n\n\t\tmf1 = tk.Frame(self, bg='white')\n\t\tmf1.grid(padx=40, pady=60)\n\n\t\tself.icona = PhotoImage(file='./icona.png')\n\n\t\tself.titolo = tk.Label(mf1, text='Messagebox Demo', font=('Arial', 20, 'bold'), bg='white')\n\t\tself.titolo.grid(row=0, column=0, columnspan = 4, sticky='ew')\n\n\t\tself.label_info = tk.Label(mf1, text='Questo pulsante visualizza un messaggio informativo', font=('Arial', 12), bg='white')\n\t\tself.label_info.grid(row=1, column=1, padx=10)\n\n\t\tself.button_info = tk.Button(mf1, text='Info', font=('Arial', 14, 'bold'), command=self.mostra_info, bg='white', fg='#0072C6', width=15, height=2, bd=0, highlightthickness=0, activebackground='#E6F0FA', activeforeground='#0072C6')\n\t\tself.button_info.grid(row=1, column=0, pady=20)\n\n\t\tself.label_warning = tk.Label(mf1, text='Questo pulsante visualizza un messaggio di avviso', font=('Arial', 12), bg='white')\n\t\tself.label_warning.grid(row=2, column=1, padx=10)\n\n\t\tself.button_warning = tk.Button(mf1, text='Warning', font=('Arial', 14, 'bold'), command=self.mostra_avviso, bg='white', fg='#FFC000', width=15, height=2, bd=0, highlightthickness=0, activebackground='#FFF2CC', activeforeground='#FFC000')\n\t\tself.button_warning.grid(row=2, column=0, pady=20)\n\n\t\tself.label_error = tk.Label(mf1, text='Questo pulsante visualizza un messaggio di errore', font=('Arial', 12), bg='white')\n\t\tself.label_error.grid(row=3, column=1, padx=10)\n\n\t\tself.button_error = tk.Button(mf1, text='Error', font=('Arial', 14, 'bold'), command=self.mostra_errore, bg='white', fg='#C00000', width=15, height=2, bd=0, highlightthickness=0, activebackground='#FFEBEB', activeforeground='#C00000')\n\t\tself.button_error.grid(row=3, column=0, pady=20)\n\n\t\tself.label_insert = tk.Label(mf1, text='Questo pulsante chiede di inserire dei dati', font=('Arial', 12), bg='white')\n\t\tself.label_insert.grid(row=4, column=1, padx=10)\n\n\t\tself.button_insert = tk.Button(mf1, text='Inserire dati', font=('Arial', 14, 'bold'), command=self.chiedi, bg='#800080', fg='white', width=15, height=2, bd=0, highlightthickness=0, activebackground='#c8a2c8', activeforeground='#C00000')\n\t\tself.button_insert.grid(row=4, column=0, pady=20)\n\n\t\tself.label_icona = tk.Label(mf1, text='Questo pulsante fa apparire una message box con icona', font=('Arial', 12), bg='white')\n\t\tself.label_icona.grid(row=5, column=1, padx=10)\n\n\t\tself.button_icona = tk.Button(mf1, text='Icona', font=('Arial', 14, 'bold'), command=self.show_custom_messagebox, bg='#8dfffe', fg='white', width=15, height=2, bd=0, highlightthickness=0, activebackground='#00c1ff', activeforeground='#ffcb2a')\n\t\tself.button_icona.grid(row=5, column=0, pady=20)\n\n\t\tself.label_exit = tk.Label(mf1, text='Questo pulsante chiede la conferma per uscire dal programma', font=('Arial', 12), bg='white')\n\t\tself.label_exit.grid(row=6, column=1, padx=10)\n\n\t\tself.button_exit = tk.Button(mf1, text='Exit', font=('Arial', 14, 'bold'), command=self.domanda, bg='#C00000', fg='white', width=15, height=2, bd=0, highlightthickness=0, activebackground='#FFEBEB', activeforeground='#C00000')\n\t\tself.button_exit.grid(row=6, column=0, pady=20)\n\n\tdef mostra_info(self):\n\t\tmessagebox.showinfo('Info', 'Questo è un messaggio informativo.')\n\n\tdef mostra_avviso(self):\n\t\tmessagebox.showwarning('Warning', 'Si tratta di un messaggio di avvertimento.')\n\n\tdef mostra_errore(self):\n\t\tmessagebox.showerror('Error', 'Si tratta di un messaggio di errore.')\n\n\tdef chiedi(self):\n\t\tnome = askstring('Nome', 'Inserisci il tuo nome')\n\t\tif nome == None:\n\t\t\tmessagebox.showerror('Error', 'Non hai inserito il nome')\n\t\telse:\n\t\t\tmessagebox.showinfo('Buongiorno!', 'Ciao, {}'.format(nome))\n\n\tdef domanda(self):\n\t\trisposta = messagebox.askyesno('Esci', 'Vuoi uscire?')\n\t\tif risposta:\n\t\t\tself.destroy()\n\n\tdef show_custom_messagebox(self):\n\t\tmessagebox = tk.Toplevel()\n\t\tmessagebox.title('Messaggio')\n\t\tmessagebox.iconphoto(True, self.icona)\n\n\t\ticon_label = Label(messagebox, image=self.icona)\n\t\ticon_label.grid(row=0, column=0)\n\n\t\tmessage_label = Label(messagebox, text='Messagio con icona')\n\t\tmessage_label.gird(row=1, column=0)\n\n\t\tclose_button = Button(messagebox, text='Chiudi', command=messagebox.destroy)\n\t\tclose_button.grid(row=2, column=0)\n\ndef main():\n\tf = Finestra()\n\tf.mainloop()\nmain()\n"],
-				"prestetazione": "https://app.decktopus.com/share/PfHHRAU-9/s/5",
-				"pdf": ""
 			}
 		]
 	}
