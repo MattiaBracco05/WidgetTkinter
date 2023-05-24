@@ -362,7 +362,7 @@
 		"progressione",
 		"scorrimento"
 	],
-	"parte":[
+	"parte": [
 			{
 				"titolo": "Progress Bar",
 				"corpo": "La progress bar è un widget della tkinter che viene incluso dalla ttk che permette di avere una barra di progressione verticale orizontale  per dei download o barre di vita per dichiarare l'oggetto bassta fare ttk.Progressbar(MainFrame) ci sono 3 parametri fondamentali max , orient , mode",
@@ -571,13 +571,13 @@
 		"menubottone",
 		
 	],
-	"parte":[
+	"parte": [
 			{
 				"titolo": "Menu Button",
 				"corpo": "Un MenuButton è un menù drop-down che puo' servire per creare dei menu' come presempio quelli degli editor di testo",
 				"code": ["import tkinter as tkclass Esempio(tk.Tk):#costruttoredef __init__(self):super().__init__()self.title('Esempio')self.geometry('600x450')self.resizable(1,1)self.esempio()def esempio(self):mf=tk.Frame()mf.grid()self.Label1=tk.Label(mf,text='Bar Corona ', font=('Times', 20, 'italic'), fg='#194D29')self.Label1.grid(columnspan=20)self.Label2=tk.Label(mf,text='I nostri menù:',font=('Times', 16))self.Label2.grid(row=1,column=0)self.menu3=tk.Label(mf,text=' ▪1: Hamburger,patatine Medie,Bibita Media')self.menu3.grid(row=2,column=0)self.menu4=tk.Label(mf,text='▪2: Kebab,patatine Medie,Bibita Media')self.menu4.grid(row=3,column=0)self.menu=tk.Menubutton(mf,text='menù',activebackground='gray',relief='raised',padx=5)self.menu.grid()self.Label10=tk.Label(mf,text=' Le nostro bibite:',font=('Times', 16))self.Label10.grid(row=1,column=1)self.Label11=tk.Label(mf,text=' ▪fanta,cocacola,sprite,7up:',)self.Label11.grid(row=3,column=1)self.bibite=tk.Menubutton(mf,text='bibite',activebackground='gray',relief='raised',padx=5)self.bibite.grid(row=4,column=1)self.bibiteb=tk.Menu(self.bibite)self.bibite1=tk.StringVar()for bib in ['fanta','cocacola','sprite','7up']:self.bibiteb.add_radiobutton(label=bib, value=bib, variable=self.bibite1)self.bibite['menu']=self.bibitebself.menu8=tk.Label(mf,text=' ▪Fresche bibite per accompagnare i nostri menù')self.menu8.grid(row=2,column=1)self.menub = tk.Menu(self.menu)self.menu1=tk.StringVar()for op in ['menù1','menù2']:self.menub.add_radiobutton(label=op, value=op, variable=self.menu1)self.menu['menu']=self.menubself.Label6=tk.Label(mf,text='')self.Label6.grid()self.Label6=tk.Label(mf,text=' Dolce aggiuntivo per 1 solo euro?:',font=('Times', 14))self.Label6.grid(columnspan=20)dolcebutton = tk.Menubutton(mf,text='Dolce?', relief = 'raised')dolcebutton.grid(columnspan=20)dolceb=tk.Menu(dolcebutton,tearoff=0)self.testo=tk.StringVar()for s in ['si', 'no']:dolceb.add_radiobutton(label=s, value=s, variable=self.testo)dolcebutton['menu']=dolcebself.Label12=tk.Label(mf,text='')self.Label12.grid(row=8,column=0)self.btncalc=tk.Button(mf,text='Resoconto',command=self.somma)self.btncalc.grid(row=9,column=0,columnspan=20)self.ris=tk.StringVar(value='Qui Ci sara' il reseconto del tuo ordine, clicca su resoconto')self.txtris=tk.Entry(mf,textvariable=self.ris,width=59)self.txtris.grid(row=10,column=0,columnspan=20)def somma(self):s=self.testo.get()m=self.bibite1.get()l=self.menu1.get()r=l+','+m+','+'Dolce:',sself.ris.set(r)def main():f=Esempio()f.mainloop()main()"],
 				"prestetazione": "https://www.canva.com/design/DAFgBHRuH_4/rcCVmOpUU7CHi1slHca6Kw/edit?utm_content=DAFgBHRuH_4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-				"pdf": "https://github.com/MattiaBracco05/WidgetTkinter/blob/main/PDF/progressbar.pdf"
+				"pdf": ""
 			}
 		]
 	},
