@@ -446,17 +446,19 @@
 	
 	{
 	"nome": "Vaschetto Emanuele",
-	"keyword": ["Menubutton",
-		"Me",
-		"Men",
-		"Menu",
-		"Menub",
-		"Menubu",
-		"Menubut",
-		"Menubutt",
-		"Menubutto",
-		"BottoneconMenu",
-		"Men",
+	"keyword": [
+		"me",
+		"men",
+		"menu",
+		"menub",
+		"menubu",
+		"menubut",
+		"menubutt",
+		"menubutto",
+		"menubutton",
+		"menu button"
+		"bottoneconmenu",
+		"men",
 		"prog",
 		"buttonmenu",
 		"menubottone"
@@ -475,7 +477,8 @@
 	
 	{
 	"nome": "Volpe Giovanni",
-    	"keyword": ["button",
+    	"keyword": [
+		"button",
 		"butto",
 		"butt",
 		"but",
@@ -486,7 +489,8 @@
 		"pulsa",
 		"puls",
 		"pul",
-		"pu"],
+		"pu"
+	],
     	"parte": [
             		{
                 		"titolo": "Button",
