@@ -1,21 +1,22 @@
 [	
 	{
 	"nome": "Alba Luca",
-	"keyword": ["filedialog",
-		    "fi",
-		    "fil",
-		    "file",
-		    "filed",
-		    "filedia",
-		    "filedial",
-		    "filedialo",
-		    "di",
-		    "dia",
-		    "dial",
-		    "dialo",
-		    "dialog",
-		    "finestra di dialogo file",
-		    "finestra di dialogo"
+	"keyword": [
+		"filedialog",
+		"fi",
+		"fil",
+		"file",
+		"filed",
+		"filedia",
+		"filedial",
+		"filedialo",
+		"di",
+		"dia",
+		"dial",
+		"dialo",
+		"dialog",
+		"finestra di dialogo file",
+		"finestra di dialogo"
 	],
 	"parte": [
 			{
@@ -30,20 +31,21 @@
 	
 	{
 	"nome": "Audisio Nicolo",
-	"keyword": ["combobox",
-		    "co",
-		    "com",
-		    "comb",
-		    "combo",
-		    "combob",
-		    "combobo",
-		    "bo",
-		    "box",
-		    "menu",
-		    "tendina",
-		    "menu a tendina",
-		    "selezione",
-		    "scelta"
+	"keyword": [
+		"combobox",
+		"co",
+		"com",
+		"comb",
+		"combo",
+		"combob",
+		"combobo",
+		"bo",
+		"box",
+		"menu",
+		"tendina",
+		"menu a tendina",
+		"selezione",
+		"scelta"
 	],
 	"parte": [
 			{
@@ -58,15 +60,16 @@
 	
 	{
 	"nome": "Barra Leonardo",
-	"keyword": ["spinbox",
-		    "sp",
-		    "spi",
-		    "spin",
-		    "spinb",
-		    "spinbo",
-		    "bo",
-		    "box",
-		    "selezione"
+	"keyword": [
+		"spinbox",
+		"sp",
+		"spi",
+		"spin",
+		"spinb",
+		"spinbo",
+		"bo",
+		"box",
+		"selezione"
 	],
 	"parte": [
 			{
@@ -81,23 +84,24 @@
 	
 	{
 	"nome": "Bracco Mattia",
-	"keyword": ["listbox",
-		    "li",
-		    "lis",
-		    "list",
-		    "listb",
-		    "listbo",
-		    "lista",
-		    "bo",
-		    "box",
-		    "scroll",
-		    "scorrimento",
-		    "tendina",
-		    "menu",
-		    "menù",
-		    "opzioni",
-		    "selezione",
-		    "scelta"
+	"keyword": [
+		"listbox",
+		"li",
+		"lis",
+		"list",
+		"listb",
+		"listbo",
+		"lista",
+		"bo",
+		"box",
+		"scroll",
+		"scorrimento",
+		"tendina",
+		"menu",
+		"menù",
+		"opzioni",
+		"selezione",
+		"scelta"
 	],
 	"parte": [
 			{
@@ -112,23 +116,24 @@
 	
 	{
 	"nome": "Culasso Edoardo",
-	"keyword": ["radiobutton",
-		    "ra",
-		    "rad",
-		    "radio",
-		    "radiob",
-		    "radiobu",
-		    "radiobut",
-		    "radiobutt",
-		    "radiobutto",
-		    "bu",
-		    "but",
-		    "butt",
-		    "butto",
-		    "button"
-		    "il radiobutton",
-		    "selezionare",
-		    "pallino rotondo"
+	"keyword": [
+		"radiobutton",
+		"ra",
+		"rad",
+		"radio",
+		"radiob",
+		"radiobu",
+		"radiobut",
+		"radiobutt",
+		"radiobutto",
+		"bu",
+		"but",
+		"butt",
+		"butto",
+		"button"
+		"il radiobutton",
+		"selezionare",
+		"pallino rotondo"
 	],
 	"parte": [
 			{
