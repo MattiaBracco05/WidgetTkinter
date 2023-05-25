@@ -404,6 +404,32 @@
 	},
 	
 	{
+	"nome": "Volpe Giovanni",
+    	"keyword": ["button",
+		  "butto",
+		    "butt",
+		    "but",
+		    "bu",
+		    "pulsante",
+		    "pulsant",
+		    "pulsan",
+		    "pulsa",
+		    "puls",
+		    "pul",
+		    "pu"],
+    	"parte": [
+            {
+                "titolo": "Widget Button",
+                "corpo": "Il button è un widget del modulo per sviluppo di interfaccie grafiche Tkinter che rappressenta un bottone/pulsante nella vita reale: quando si interagisce con esso, cliccandovi sopra, verrà eseuito un comando assegnato dal programmatore al singolo button.\nQuesto widget infatti fa uso di un attributo, ovvero il <strong>'command'</strong> per sapere quale comando (o funzione) eseguire quando l'utente va cliccare sul bottone presente nella finestra dell'applicazione in cui si trova",
+                "code": ["Questo lo inseriamo noi, tu mandaci il codice", "Idem"],
+                "prestetazione": "https://www.canva.com/design/DAFj3FRromc/kWc4yKIDnmmlh5NKjuizYA/view?utm_content=DAFj3FRromc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+                "pdf": "Inseriamo noi quando ci mandate il PDF"
+            }
+        ]
+    }               
+]
+	
+	{
 	"nome": "Zhou ChengHuan",
 	"keyword": ["Canvas",
 		    "Ca",
