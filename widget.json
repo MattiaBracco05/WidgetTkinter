@@ -9,6 +9,11 @@
 		    "filedia",
 		    "filedial",
 		    "filedialo",
+		    "di",
+		    "dia",
+		    "dial",
+		    "dialo",
+		    "dialog",
 		    "finestra di dialogo file",
 		    "finestra di dialogo"
 	],
@@ -32,6 +37,7 @@
 		    "combo",
 		    "combob",
 		    "combobo",
+		    "bo",
 		    "box",
 		    "menu",
 		    "tendina",
@@ -58,6 +64,7 @@
 		    "spin",
 		    "spinb",
 		    "spinbo",
+		    "bo",
 		    "box",
 		    "selezione"
 	],
@@ -77,10 +84,12 @@
 	"keyword": ["listbox",
 		    "li",
 		    "lis",
+		    "list",
 		    "listb",
 		    "listbo",
 		    "lista",
-		    "list",
+		    "bo",
+		    "box",
 		    "scroll",
 		    "scorrimento",
 		    "tendina",
@@ -88,8 +97,7 @@
 		    "menù",
 		    "opzioni",
 		    "selezione",
-		    "scelta",
-		    "box"
+		    "scelta"
 	],
 	"parte": [
 			{
@@ -113,6 +121,11 @@
 		    "radiobut",
 		    "radiobutt",
 		    "radiobutto",
+		    "bu",
+		    "but",
+		    "butt",
+		    "butto",
+		    "button"
 		    "il radiobutton",
 		    "selezionare",
 		    "pallino rotondo"
@@ -140,6 +153,10 @@
 		    "checkbut",
 		    "checkbutt",
 		    "checkbutto",
+		    "bu",
+		    "but",
+		    "butt",
+		    "butto",
 		    "button",
 		    "selezione",
 		    "scelta",
@@ -206,6 +223,10 @@
 		"label",
 		"labelfr",
 		"labelfram",
+		"fr",
+		"fra",
+		"fram",
+		"frame",
 		"pi",
 		"pil",
 		"pill",
@@ -238,11 +259,11 @@
 		"scroll",
 		"scrollb",
 		"scrollba",
+		"ba",
+		"bar",
 		"barra di scorrimento",
 		"scorrimento",
-		"metodo set()",
-		"scrolbar",
-		"bar"
+		"metodo set()"
 	],
 	"parte": [
 			{
@@ -258,11 +279,11 @@
 	{
 	"nome": "Giusiano Massimo",
 	"keyword": ["scale",
-		    "scala",
-		    "scorri",
-		    "sc",
-		    "sca",
-		    "scal"],
+		"sc",
+		"sca",
+		"scal",
+		"scala",
+		"scorri"],
 	"parte": [
 			{
 				"titolo": "Scale",
