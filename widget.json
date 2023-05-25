@@ -258,7 +258,32 @@
 				"pdf": "https://github.com/MattiaBracco05/WidgetTkinter/blob/main/PDF/labelFrame.pdf"
 			}
 		]
-	},			
+	},	
+	
+	{
+	"nome": "Galeasso Federico",
+	"keyword": [
+		"p",
+		"pl",
+		"pla",
+		"plac",
+		"place",
+		"place()",
+		"metodo place",
+		"metodo place()",
+		"layout",
+		"disposizione"
+	],
+	"parte": [
+			{
+				"titolo": "Place",
+				"corpo": "",
+				"code": [""],
+				"prestetazione": "Il metodo <strong>place()</strong> consente di posizionare un widget Tkinter in una posizione specifica all'interno del frame o della finestra. È possibile posizionare il widget in modo <strong>assoluto</strong> o <strong>relativo</strong> rispetto al frame o alla finestra genitore. La sintassi è: <strong>widget.place(attributi)</strong>. Gli attributi del place() sono: <strong>x</strong>, <strong>y</strong>, <strong>relx</strong>, <strong>rely</strong>, <strong>width</strong>, <strong>height</strong>, <strong>relwidth</strong>, <strong>relheight</strong>, <strong>anchor</strong>, <strong>bordermode</strong>.",
+				"pdf": "https://github.com/MattiaBracco05/WidgetTkinter/blob/main/PDF/place.pdf"
+			}
+		]
+	},
 	
 	{
 	"nome": "Galfre Beniamino",
