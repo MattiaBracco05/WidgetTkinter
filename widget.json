@@ -253,7 +253,7 @@
 			{
 				"titolo": "Label frame",
 				"corpo": "Il widget labelframe viene utilizzato con la tkinter o la Temed tkinter per ordinare logicamente a video e a livello di codice i widget inseriti o per dare un nome ad una  gruppo di widget stampati a nella finestra grafica es. finestra di login ",
-				"code": ["Questo lo inseriamo noi, tu mandaci il codice", "Idem"],
+				"code": ["import tkinter as tk\nfrom tkinter import ttk\n\n# root window\nroot = tk.Tk()\n\n# creazione finestra fraficas\n#root.geometry('300x200')\nroot.resizable(False, False)\nroot.title('LabelFrame allineamento')\n\n# label frame\nlf = ttk.LabelFrame(root, text='Alignment')\nlf.grid(column=0, row=0, padx=20, pady=20)\n\nalignment_var = tk.StringVar()\nalignments = ('sinistra', 'centro', 'destra')\n\n# creazione radio button e inserimento\n\ngrid_column = 0\nfor alignment in alignments:\n    # creazione radio button\n    radio = ttk.Radiobutton(lf,text=alignment, value=alignment, variable=alignment_var)\n    radio.grid(column=grid_column, row=0, ipadx=10, ipady=10)\n    # grid column\n    grid_column += 1\n\nroot.mainloop()\n", "Idem"],
 				"prestetazione": "https://www.canva.com/design/DAFic_Wg-C4/UT4as9O3JYqDh-7p0TE4dg/view",
 				"pdf": "https://github.com/MattiaBracco05/WidgetTkinter/blob/main/PDF/labelFrame.pdf"
 			}
