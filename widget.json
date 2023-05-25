@@ -263,8 +263,6 @@
 	{
 	"nome": "Galfre Beniamino",
 	"keyword": [
-		"barra",
-		"scrollbar",
 		"sc",
 		"scr",
 		"scro",
@@ -272,8 +270,11 @@
 		"scroll",
 		"scrollb",
 		"scrollba",
+		"scrollbar",
 		"ba",
 		"bar",
+		"barr",
+		"barra",
 		"barra di scorrimento",
 		"scorrimento",
 		"metodo set()"
@@ -313,7 +314,6 @@
 	{
 	"nome": "Martini Gabriele",
 	"keyword": [
-		"PanedWindow",
 		"pa",
 		"pan",
 		"pane",
@@ -323,6 +323,7 @@
 		"panedwin",
 		"panedwind",
 		"panedwindo",
+		"panedwindow",
 		"wi",
 		"win",
 		"wind",
@@ -348,9 +349,9 @@
 	{
 	"nome": "Minetti Leonardo",
 	"keyword": [
-		"menu",
 		"me",
 		"men",
+		"menu",
 		"il menu",
 		"navbar",
 		"barra di navigazione",
@@ -371,9 +372,9 @@
 	{
 	"nome": "Paseri Kevin",
 	"keyword": [
-		"bind",
 		"bi",
 		"bin",
+		"bind",
 		"bind()",
 		"la bind()",
 		"la bind",
@@ -394,7 +395,6 @@
 	{
 	"nome": "Rolle Pietro",
 	"keyword": [
-		"messagebox",
 		"me",
 		"mes",
 		"mess",
@@ -403,6 +403,9 @@
 		"message",
 		"messageb",
 		"messagebo",
+		"messagebox",
+		"bo",
+		"box",
 		"messaggi",
 		"avvisi"
 	],
@@ -419,8 +422,7 @@
 	
 	{
 	"nome": "Soave Sebastiano",
-	"keyword": ["barra di progresso",
-		"progress bar",
+	"keyword": [
 		"pr",
 		"pro",
 		"prog",
@@ -430,8 +432,10 @@
 		"progressb",
 		"progressba",
 		"progressbar",
+		"progress bar",
 		"progressione",
 		"scorrimento"
+		"barra di progresso",
 	],
 	"parte": [
 			{
