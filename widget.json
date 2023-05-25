@@ -2,7 +2,6 @@
 	{
 	"nome": "Alba Luca",
 	"keyword": [
-		"filedialog",
 		"fi",
 		"fil",
 		"file",
@@ -10,6 +9,7 @@
 		"filedia",
 		"filedial",
 		"filedialo",
+		"filedialog",
 		"di",
 		"dia",
 		"dial",
@@ -32,13 +32,13 @@
 	{
 	"nome": "Audisio Nicolo",
 	"keyword": [
-		"combobox",
 		"co",
 		"com",
 		"comb",
 		"combo",
 		"combob",
 		"combobo",
+		"combobox",
 		"bo",
 		"box",
 		"menu",
@@ -61,12 +61,12 @@
 	{
 	"nome": "Barra Leonardo",
 	"keyword": [
-		"spinbox",
 		"sp",
 		"spi",
 		"spin",
 		"spinb",
 		"spinbo",
+		"spinbox",
 		"bo",
 		"box",
 		"selezione"
@@ -85,12 +85,12 @@
 	{
 	"nome": "Bracco Mattia",
 	"keyword": [
-		"listbox",
 		"li",
 		"lis",
 		"list",
 		"listb",
 		"listbo",
+		"listbox",
 		"lista",
 		"bo",
 		"box",
@@ -117,7 +117,6 @@
 	{
 	"nome": "Culasso Edoardo",
 	"keyword": [
-		"radiobutton",
 		"ra",
 		"rad",
 		"radio",
@@ -126,6 +125,7 @@
 		"radiobut",
 		"radiobutt",
 		"radiobutto",
+		"radiobutton",
 		"bu",
 		"but",
 		"butt",
@@ -149,7 +149,6 @@
 	{
 	"nome": "De Boni Simone",
 	"keyword": [
-		"checkbutton",
 		"ch",
 		"che",
 		"chec",
@@ -159,6 +158,7 @@
 		"checkbut",
 		"checkbutt",
 		"checkbutto",
+		"checkbutton",
 		"bu",
 		"but",
 		"butt",
@@ -183,10 +183,10 @@
 	{
 	"nome": "Di Marco Mirko",
 	"keyword": [
-		"pack",
+		"p",
 		"pa",
 		"pac",
-		"p",
+		"pack",
 		"layout",
 		"disposizione"
 		],
@@ -204,9 +204,9 @@
 	{
 	"nome": "Dossetto Giuseppe",
 	"keyword": [
-		"text",
 		"te",
 		"tex",
+		"text",
 		"widget",
 		"casella",
 		"testo",
@@ -226,13 +226,14 @@
 	{
 	"nome": "Fortunato Marco Chiaffredo",
 	"keyword": [
-		"label frame",
 		"la",
 		"lab",
 		"labe"
 		"label",
 		"labelfr",
 		"labelfram",
+		"labelframe"
+		"label frame",
 		"fr",
 		"fra",
 		"fram",
