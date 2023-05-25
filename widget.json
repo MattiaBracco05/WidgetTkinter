@@ -200,11 +200,6 @@
 		{
 	"nome": "Fortunato Marco Chiaffredo",
 	"keyword": ["label frame",
-		"ttk",
-		"frame con bordo",
-		"ordinamento logico",
-		"divisione per argomento",
-		"utilizzo immagini",
 		"la",
 		"lab",
 		"labe"
@@ -215,7 +210,12 @@
 		"pil",
 		"pill",
 		"pillo",
-		"pillow"],
+		"pillow",
+		"ttk",
+		"frame con bordo",
+		"ordinamento logico",
+		"divisione per argomento",
+		"utilizzo immagini"],
 	"parte": [
 			{
 				"titolo": "Label frame",
