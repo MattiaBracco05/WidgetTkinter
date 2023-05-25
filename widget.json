@@ -214,9 +214,11 @@
 			}
 		]
 	},
-		{
+	
+	{
 	"nome": "Fortunato Marco Chiaffredo",
-	"keyword": ["label frame",
+	"keyword": [
+		"label frame",
 		"la",
 		"lab",
 		"labe"
@@ -236,7 +238,8 @@
 		"frame con bordo",
 		"ordinamento logico",
 		"divisione per argomento",
-		"utilizzo immagini"],
+		"utilizzo immagini"
+	],
 	"parte": [
 			{
 				"titolo": "Label frame",
@@ -250,7 +253,8 @@
 	
 	{
 	"nome": "Galfre Beniamino",
-	"keyword": ["barra",
+	"keyword": [
+		"barra",
 		"scrollbar",
 		"sc",
 		"scr",
@@ -278,12 +282,14 @@
 	
 	{
 	"nome": "Giusiano Massimo",
-	"keyword": ["scale",
+	"keyword": [
+		"scale",
 		"sc",
 		"sca",
 		"scal",
 		"scala",
-		"scorri"],
+		"scorri"
+	],
 	"parte": [
 			{
 				"titolo": "Scale",
@@ -297,7 +303,8 @@
 	
 	{
 	"nome": "Martini Gabriele",
-	"keyword": ["PanedWindow",
+	"keyword": [
+		"PanedWindow",
 		"pa",
 		"pan",
 		"pane",
@@ -331,14 +338,15 @@
 	
 	{
 	"nome": "Minetti Leonardo",
-	"keyword": ["menu",
-		    "me",
-		    "men",
-		    "il menu",
-		    "navbar",
-		    "barra di navigazione",
-		    "barra",
-		    "menu()"
+	"keyword": [
+		"menu",
+		"me",
+		"men",
+		"il menu",
+		"navbar",
+		"barra di navigazione",
+		"barra",
+		"menu()"
 	],
 	"parte": [
 			{
@@ -353,14 +361,15 @@
 	
 	{
 	"nome": "Paseri Kevin",
-	"keyword": ["bind",
-		    "bi",
-		    "bin",
-		    "bind()",
-		    "la bind()",
-		    "la bind",
-		    "metodo bind",
-		    "eventi"
+	"keyword": [
+		"bind",
+		"bi",
+		"bin",
+		"bind()",
+		"la bind()",
+		"la bind",
+		"metodo bind",
+		"eventi"
 		   ],
 	"parte": [
 			{
