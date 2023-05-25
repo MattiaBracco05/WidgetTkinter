@@ -148,25 +148,26 @@
 	
 	{
 	"nome": "De Boni Simone",
-	"keyword": ["checkbutton",
-		    "ch",
-		    "che",
-		    "chec",
-		    "check",
-		    "checkb",
-		    "checkbu",
-		    "checkbut",
-		    "checkbutt",
-		    "checkbutto",
-		    "bu",
-		    "but",
-		    "butt",
-		    "butto",
-		    "button",
-		    "selezione",
-		    "scelta",
-		    "pulsante",
-		    "click"
+	"keyword": [
+		"checkbutton",
+		"ch",
+		"che",
+		"chec",
+		"check",
+		"checkb",
+		"checkbu",
+		"checkbut",
+		"checkbutt",
+		"checkbutto",
+		"bu",
+		"but",
+		"butt",
+		"butto",
+		"button",
+		"selezione",
+		"scelta",
+		"pulsante",
+		"click"
 	],
 	"parte": [
 			{
@@ -181,12 +182,13 @@
 	
 	{
 	"nome": "Di Marco Mirko",
-	"keyword": ["pack",
-		    "pa",
-		    "pac",
-		    "p",
-		    "layout",
-		    "disposizione"
+	"keyword": [
+		"pack",
+		"pa",
+		"pac",
+		"p",
+		"layout",
+		"disposizione"
 		],
 	"parte": [
 			{
@@ -201,13 +203,14 @@
 	
 	{
 	"nome": "Dossetto Giuseppe",
-	"keyword": ["text",
-		    "te",
-		    "tex",
-		    "widget",
-		    "casella",
-		    "testo",
-		    "box"
+	"keyword": [
+		"text",
+		"te",
+		"tex",
+		"widget",
+		"casella",
+		"testo",
+		"box"
 		],
 	"parte": [
 			{
@@ -375,7 +378,7 @@
 		"la bind",
 		"metodo bind",
 		"eventi"
-		   ],
+	],
 	"parte": [
 			{
 				"titolo": "La Bind",
@@ -389,18 +392,19 @@
 	
 	{
 	"nome": "Rolle Pietro",
-	"keyword": ["messagebox",
-		    "me",
-		    "mes",
-		    "mess",
-		    "messa",
-		    "messag",
-		    "message",
-		    "messageb",
-		    "messagebo",
-		    "messaggi",
-		    "avvisi"
-		],
+	"keyword": [
+		"messagebox",
+		"me",
+		"mes",
+		"mess",
+		"messa",
+		"messag",
+		"message",
+		"messageb",
+		"messagebo",
+		"messaggi",
+		"avvisi"
+	],
 	"parte": [
 			{
 				"titolo": "Messagebox",
